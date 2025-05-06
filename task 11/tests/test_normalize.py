@@ -34,3 +34,4 @@ def test_clean_amount():
 
     # Assert that the cleaned amount is a float without currency symbols
     assert cleaned_amount == 1250.99
+
