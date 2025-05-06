@@ -3,9 +3,12 @@
 This script cleans and standardizes messy invoice JSON data.
 
 ## What it does
-- Renames inconsistent field keys to standard ones
-- Parses various date formats into `YYYY-MM-DD`
-- Cleans currency fields and converts to float
+
+-Standardizes inconsistent invoice keys.
+- Parses and unifies date formats into `YYYY-MM-DD`.
+- Cleans currency strings to numeric format.
+- Replaces **empty keys or values** with the default value `"N/A"`.
+
 
 ## How to use
 
