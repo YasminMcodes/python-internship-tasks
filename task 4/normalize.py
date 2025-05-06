@@ -33,12 +33,29 @@ for standard_key, variants in KEY_MAPPING.items():
     for variant in variants:
         INVERTED_MAPPING[variant.lower()] = standard_key
 
-def normalize_keys(data):
-    """Standardize invoice keys using the inverted mapping dictionary."""
-    return {
-        INVERTED_MAPPING.get(k.strip().lower(), k.strip().lower()): v
-        for k, v in data.items()
-    }
+
+def normalize_keys(data, default_value="N/A"):
+    """Standardize invoice keys using a mapping dictionary, replace empty values with a default."""
+    normalized = {}
+    for k, v in data.items():
+        clean_key = k.strip()
+
+        # If key or value is empty, replace with the default value
+        if not clean_key or not v:
+            print(f"Warning: Empty key or value detected. Replacing with default: {clean_key} -> {default_value}")
+            v = default_value
+
+        # Find standardized key name
+        for standard, variants in KEY_MAPPING.items():
+            if clean_key.lower() in [x.lower() for x in variants]:
+                clean_key = standard
+                break
+
+        # Store normalized key-value pair
+        normalized[clean_key.lower()] = v
+
+    return normalized
+
 
 def parse_date(date_str):
     """Try to parse any string date format into YYYY-MM-DD."""

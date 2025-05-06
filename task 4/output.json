@@ -1,9 +1,9 @@
 {
   "invoice_number": "INV-12345",
   "invoice_date": "2024-04-12",
-  "due_date": "",
+  "due_date": "N/A",
   "total_amount": 500.0,
-  "vendor": null,
-  "notes": "",
+  "vendor": "N/A",
+  "notes": "N/A",
   "reference": "PO-12345"
 }
