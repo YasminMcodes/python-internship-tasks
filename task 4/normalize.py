@@ -92,9 +92,13 @@ if __name__ == "__main__":
     with open("input.json") as f:
         raw = json.load(f)
 
-    normalized = normalize_invoice(raw)
+    if isinstance(raw, list):
+        normalized = [normalize_invoice(invoice) for invoice in raw]
+    else:
+        normalized = normalize_invoice(raw)
 
     with open("output.json", "w") as f:
         json.dump(normalized, f, indent=2)
 
     print("Normalization complete! See output.json.")
+
