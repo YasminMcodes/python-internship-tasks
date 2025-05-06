@@ -1,0 +1,9 @@
+{
+  "inv_no": "INV-12345",
+  "DateIssued": "12th April 2024",
+  "payment_due": "",
+  "invoice_amount": "$500.00",
+  "vendor_name": null,
+  "notes": "",
+  "reference": "PO-12345"
+}
