@@ -71,3 +71,4 @@ def normalize_invoices(data):
     if isinstance(data, list):
         return [normalize_invoice(item) for item in data]
     return [normalize_invoice(data)]
+
