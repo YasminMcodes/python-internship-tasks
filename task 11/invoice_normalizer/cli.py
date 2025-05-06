@@ -20,3 +20,5 @@ def main():
         json.dump(normalized_data, f, indent=2)
 
     print(f"Normalization complete. Output saved to {args.output}")
+
+
