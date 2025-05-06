@@ -1,9 +1,72 @@
-{
-  "inv_no": "INV-12345",
-  "DateIssued": "12th April 2024",
-  "payment_due": "",
-  "invoice_amount": "$500.00",
-  "vendor_name": null,
-  "notes": "",
-  "reference": "PO-12345"
-}
+[
+  {
+    "inv_no": "INV001",
+    "DateIssued": "2024/04/12",
+    "due": "13th May 2024",
+    "total": "$1,000.00",
+    "vendor_name": "Acme Corp"
+  },
+  {
+    "InvoiceNumber": "A2024-02",
+    "invoiceDate": "12-04-24",
+    "dueDateString": "2024.05.20",
+    "InvoiceTotal": "€2.345,50",
+    "supplier": "Global Tech"
+  },
+  {
+    "invoice_id": "003",
+    "Invoice_Date": "",
+    "deadline": "",
+    "net_amount": "  1450 ",
+    "issuer": ""
+  },
+  {
+    "inv_id": "004",
+    "issue_date": "April 5th, 2024",
+    "due_dt": "2024-05-15",
+    "amt": "$999",
+    "from": "DataSolutions"
+  },
+  {
+    "invoiceNumber": "005",
+    "inv_date": "05/04/2024",
+    "payment_due": "06-06-2024",
+    "balance_due": "1,250.75",
+    "seller": "MegaMart"
+  },
+  {
+    "inv#": "006",
+    "bill_date": "04.12.24",
+    "final_date": "May 30, 2024",
+    "grand_total": "$2,500",
+    "company": "SoftServe"
+  },
+  {
+    "invoice_id": "007",
+    "issued": "2024-04-10T10:00:00",
+    "dueDate": "10-06-2024",
+    "invoice_amount": "3.100,00",
+    "provider": "SkyNet"
+  },
+  {
+    "invoice_id": "",
+    "issued": "",
+    "dueDate": "",
+    "invoice_amount": "",
+    "provider": ""
+  },
+  {
+    "invnum": "009",
+    "date_of_invoice": "2024-04-01",
+    "payment_due_date": "2024/06/01",
+    "invoiceValue": "$750.00",
+    "vendor": "ByteWorks"
+  },
+  {
+    "inv_id": "010",
+    "DateIssued": "April 10th, 2024",
+    "dueDate": "July 10, 2024",
+    "TotalAmount": "£1,500.00",
+    "biller": "Nova Inc"
+  }
+]
