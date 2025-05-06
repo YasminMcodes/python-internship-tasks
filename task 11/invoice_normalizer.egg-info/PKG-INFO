@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: invoice-normalizer
+Version: 0.1
+Summary: A utility package to normalize messy invoice data
+Home-page: https://github.com/yourusername/invoice_normalizer
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: python-dateutil

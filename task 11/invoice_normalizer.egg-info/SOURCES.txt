@@ -1,0 +1,12 @@
+README.md
+setup.py
+invoice_normalizer/__init__.py
+invoice_normalizer/cli.py
+invoice_normalizer/normalize.py
+invoice_normalizer.egg-info/PKG-INFO
+invoice_normalizer.egg-info/SOURCES.txt
+invoice_normalizer.egg-info/dependency_links.txt
+invoice_normalizer.egg-info/entry_points.txt
+invoice_normalizer.egg-info/requires.txt
+invoice_normalizer.egg-info/top_level.txt
+tests/test_normalize.py

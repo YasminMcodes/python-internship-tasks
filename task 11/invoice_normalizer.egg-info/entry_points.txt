@@ -1,0 +1,2 @@
+[console_scripts]
+invoice-normalizer = invoice_normalizer.cli:main
